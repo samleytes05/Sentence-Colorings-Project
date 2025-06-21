@@ -13,12 +13,6 @@ re (regex)
 numpy
 csv
 
-To install these use the following lines in the command prompt after opening the file location.
-
-conda create -n PIC16A-25S python=3.11.6
-conda activate PIC16A-25S
-conda install --channel=conda-forge pandas matplotlib networkx numpy
-
 
 How to Run:
 To run this project, in main.py add the files you want to analyze (.txt documents in same file directory as main.py) to the list of booklist = [].
